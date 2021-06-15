@@ -1,20 +1,17 @@
 .ocean {
 	width: 100%;
 	position: relative;
-	
-	
 }
-.Dolphin {
-	width: 100px;
+.dolphin {
+	width: 90px;
 	height: 150px;
 	position: absolute;
 	top: 60%;
 	left: 90%;
-	animation: Dolphin-animation 5s linear infinite;
+	animation: dolphin-animation 5s linear infinite;
 	transition: all 3s ease;
 }
-
-@keyframes Dolphin-animation {
+@keyframes dolphin-animation {
 	0% {left: 900px; top: 200px; transform: rotate(30deg);}
 	15% { left: 800px; top: 80px;transform: rotate(-25deg)}
 	40% { left: 700px; top: 100px;transform: rotate(-90deg)}
@@ -22,4 +19,5 @@
 	70% { left: 550px; top: 300px;transform: rotate(-250deg)}
 	90% { left: 600px; top: 300px;transform: rotate(-380deg)}
 	100% { left: 600px; top: 300px;transform: rotate(-480deg)}
+
 }
